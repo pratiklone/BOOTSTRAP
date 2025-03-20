@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn More - Educational Website</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+    <style>
+        .hero-section {
+            background: url('https://via.placeholder.com/1500x600') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .card {
+            border-radius: 15px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .footer-links a {
+            color: #d1d1d1;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Learn More</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--   
+    <section class="hero-section">
+        <h1>Welcome to Learn More</h1>
+        <p>Unlock the world of knowledge with our top-quality courses and resources!</p>
+        <a href="#courses" class="btn btn-light btn-lg">Explore Courses</a>
+    </section> -->
+
+   
+  
+
+    <section id="courses" class="container my-5">
+        <h2 class="text-center">Our Popular Courses</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg" class="card-img-top" alt="Course 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">Learn the latest web technologies and build stunning websites with this comprehensive course.</p>
+                        <a href="#" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://cdn.prod.website-files.com/63ccf2f0ea97be12ead278ed/644a18b637053fa3709c5ba2_what-is-data-science.jpg" class="card-img-top" alt="Course 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Science</h5>
+                        <p class="card-text">Master data analysis, machine learning, and data visualization with this hands-on course.</p>
+                        <a href="#" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://digitallearning.eletsonline.com/wp-content/uploads/2019/04/Digital-Marketing.jpg" class="card-img-top" alt="Course 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Digital Marketing</h5>
+                        <p class="card-text">Learn the secrets to growing a business online with cutting-edge digital marketing strategies.</p>
+                        <a href="#" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contact Us</h2>
+        <p class="text-center">Have any questions or need assistance? Reach out to us!</p>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="container my-5">
+        <h2 class="text-center">About Us</h2>
+        <p class="lead text-center">
+            We offer a variety of online learning resources to help you grow your skills in every field imaginable. Our courses are designed to engage, educate, and inspire you!
+        </p>
+    </section>
+
+    <footer class="text-center">
+        <p>&copy; 2025 Learn More. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Terms of Service</a> | 
+            <a href="#">Help</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
